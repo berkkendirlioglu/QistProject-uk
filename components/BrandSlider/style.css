@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.arrow-box{
+  position: absolute;
+  top: -13%;
+  transform: translateY(-50%);
+  padding: 1.2rem 1.2rem;
+  display: flex;
+  background-color: transparent;
+  border:1px solid #c5c5c5;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.arrow-box:hover{
+  background-color: #e6e6e6;
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  fill: #000;
+}
+
+.arrow--left {
+  left: auto;
+  right: 80px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 0px;
+}
+
+.arrow--disabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
