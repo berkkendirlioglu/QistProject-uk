@@ -114,7 +114,7 @@ export default function Navbar() {
                   className="text-[#246fcc] text-[16px] font-bold hover:text-[#333]"
                   href={"/"}
                 >
-                  Moldova / KIŞINEV
+                  Chişinau / MOLDOVA
                 </Link>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Navbar() {
                   className="text-[#246fcc] text-[16px] font-bold hover:text-[#333]"
                   href={"tel:+37376645688"}
                 >
-                  +37376645688
+                  +37376645688 / <Link href={'tel:+37368055880'}>+37368055880</Link>
                 </Link>
               </div>
             </div>
